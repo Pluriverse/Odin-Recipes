@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+* {
+    margin: 0;
+    background-color: rgb(225, 243, 248);
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(137, 46, 46);
+    font-size: 80px;
+    margin: 0 400px;
+}
+
+h2 {
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(137, 46, 46);
+    font-size: 40px;
+}
+
+p {
+    font-family: helvetica, sans-serif;
+}
+
+li {
+    font-family: helvetica, sans-serif;
+}
+
+.intro {
+    margin: 40px 80px;
+    display: flex;
+}
+.ingredients {
+    margin: 0 400px;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+.method {
+    margin: 0 400px;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
