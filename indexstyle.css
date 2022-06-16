@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
 * {
     margin: 0;
 }
@@ -15,7 +17,7 @@ header {
 
 ul {
     height: 100px;
-    background-color: #878787;
+    background-color: rgb(137, 46, 46);
     display: flex;  
     justify-content: flex-end;
     align-items: center;
@@ -25,8 +27,7 @@ a {
     text-decoration: none;
     padding: 10px 20px;
     margin: 10px 10px;
-    border: 2px solid rgb(227, 227, 227);
-    color: rgb(227, 227, 227);
+    color: rgb(255, 255, 255);
     font-family: Helvetica, sans-serif;
     font-size: 28px;
 }
@@ -34,8 +35,8 @@ a {
 a:hover { 
     color: #010000;
     background-color: rgb(227, 227, 227);
-    transition-duration: 1s;
-    border-radius: 50px
+    transition-duration: 400ms;
+    border: 2px solid white;
 }
 
 li {
@@ -48,20 +49,26 @@ li {
     display: flex;
 }
 
-.picturebutton {
+.picturebutton img {
     position: relative;
 }
-
+img {
+    position: relative;
+}
 .button1 {
     position: absolute;
-    border: none;
+    width: 50px;
+    height: 20px;
     background-color: white;
+    top: 50%;
+    left: 50%;
+   
 }
 
 h1 {
-    font-size: 200px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 130px;
+    line-height: 120px;
+    font-family: 'Major Mono Display', monospace;
     color: navy;
-    Line-height: 200px;
 
 }

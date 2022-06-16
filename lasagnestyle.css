@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 80px;
+    color: rgb(149, 57, 57);
+}

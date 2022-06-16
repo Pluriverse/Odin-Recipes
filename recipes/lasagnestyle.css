@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Zen+Kaku+Gothic+Antique&display=swap');
 * {
     margin: 0;
     background-color: rgb(225, 243, 248);
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 h1 {
@@ -19,11 +20,11 @@ h2 {
 }
 
 p {
-    font-family: helvetica, sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 li {
-    font-family: helvetica, sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 .intro {
